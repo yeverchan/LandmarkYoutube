@@ -59,7 +59,7 @@ app.post("/upload", multer.single("file"), (req, res, next) => {
             let searchParameters = {
                 q: "",
                 part: "snippet",
-                key: "YOU ARE API KEY",
+                key: "YOUR API KEY",
                 type: "video",
                 maxResults: 2,
                 regionCode: "KR",
